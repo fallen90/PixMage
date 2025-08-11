@@ -91,6 +91,18 @@ export PROXY_PASSWORD=mypass
 Requests without valid credentials will return `401 Unauthorized`.
 
 ---
+## Mihon/Tachiyomi Usage
+
+To use PixMage with Mihon/Tachiyomi:
+
+1. Go to Settings > Advanced > Data Saver
+2. Select "Bandwidth Hero" as the data saver
+3. In "Bandwidth Hero Proxy Server", enter your PixMage instance URL
+4. For aggressive compression suitable for slow mobile data (3G/LTE/HSDPA+):
+   - Set Image Quality to 40 to activate SUPER mode
+   - This provides optimal compression while maintaining readability
+
+---
 
 ## 📜 License
 
