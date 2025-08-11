@@ -1,7 +1,12 @@
 [project]
 name = "pixmage"
 version = "0.1.0"
-description = "Add your description here"
+description = "PixMage is a FastAPI-powered image compression and optimization proxy inspired by Bandwidth Hero, built for speed, quality control, and minimal bandwidth usage. It supports dynamic resizing, format conversion, grayscale filtering, and intelligent text/image detection to choose the optimal compression strategy on the fly."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "fastapi==0.116.1",
+    "httpx[http2]==0.28.1",
+    "pillow==10.2.0",
+    "uvicorn>=0.35.0",
+]
