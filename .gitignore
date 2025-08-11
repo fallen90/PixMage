@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+MANIFEST
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+# Poetry
+poetry.lock
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.swp
+*.swo
+# Jupyter Notebook
+.ipynb_checkpoints
+# Distribution / packaging
+build/
+dist/
